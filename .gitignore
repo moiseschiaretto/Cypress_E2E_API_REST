@@ -1,5 +1,5 @@
 /node_modules/
 /downloads/
 /package-lock.json
-/cypress/e2e/report/
-/cypress/e2e/videos/
+/cypress/report/
+/cypress/videos/
