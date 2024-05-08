@@ -20,7 +20,7 @@ api_test
   |	  |       |---e2e.js
   |	  |       
   |	  |       
-  |   |---e2e
+  |     |---e2e
   |        |---step_definitions
   |                |---api_jsonplaceholder
   |                |       |---01__get_all_id_0.cy.js
