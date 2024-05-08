@@ -16,7 +16,7 @@ api_test
     |-----.gitgnore
     |
     |-----cypress
-	  |       |---support
+  |       |---support
 	  |       |     |---e2e.js
 	  |       |
 	  |       |
