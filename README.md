@@ -69,5 +69,5 @@ api_test
 ![11_Verbos_HTTP_API_REST](https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/1ec3c4ee-6255-428d-8dd3-efc01fb02145)
 
 
-**Em construção...**
+**Documentação em construção...**
 
