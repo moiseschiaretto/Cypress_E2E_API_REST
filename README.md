@@ -62,6 +62,11 @@ api_test
 
 ```
 
+## Cenários de Testes de API REST
+
+- CRUD com os verbos HTTP, Métodos GetAll, GetId, Post, Put, Patch, Delete.
+
+![11_Verbos_HTTP_API_REST](https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/1ec3c4ee-6255-428d-8dd3-efc01fb02145)
 
 
 **Em construção...**
