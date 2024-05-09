@@ -12,6 +12,8 @@
 ![10_API_REST_ASSURED_BDD](https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/67c6ca2c-1904-45e7-ae68-5c744a4d7f90)
 
 
+
+
 ## Estrutura do Projeto "api_test"
 
 ```
