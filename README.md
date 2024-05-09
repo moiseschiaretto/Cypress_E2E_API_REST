@@ -3,7 +3,10 @@
   
 - Descrição das explicações de cada item da 'estrutura do projeto "api_test" desenvolvido'.
   
-- **Cypress versão 13** 
+- **Cypress versão 13**
+
+![03_cypress_logo_social](https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/5ba913ef-e3d3-4958-be18-188ddce8d228)
+
 
 ## Estrutura do Projeto "api_test"
 
