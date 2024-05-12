@@ -69,5 +69,18 @@ api_test
 ![11_Verbos_HTTP_API_REST](https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/1ec3c4ee-6255-428d-8dd3-efc01fb02145)
 
 
+
+## Exemplo da API REST com o método [GET Id]
+
+![01_API_CYPRESS_JAVASCRIPT](https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/0093e413-08dd-461f-ab61-2873982224c7)
+
+
+
+## Exemplo da execução via browser API REST com o método [GET Id]
+
+![02_API_CYPRESS_JAVASCRIPT_EXECUCAO](https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/da89fafc-570c-42b7-8f10-e51067e8a4dc)
+
+
+
 **Documentação em construção...**
 
