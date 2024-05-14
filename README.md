@@ -69,6 +69,8 @@ api_test
 ![11_Verbos_HTTP_API_REST](https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/1ec3c4ee-6255-428d-8dd3-efc01fb02145)
 
 
+![16_Piramide_Testes](https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/c3287a16-3939-41f7-a137-538a99fadc96)
+
 
 ## Exemplo da API REST com o método [GET Id]
 
