@@ -63,8 +63,9 @@ api_test
 ```
 
 ## Cenários de Testes de API REST
+<br>
 
-- CRUD com os verbos HTTP, métodos GetAll, GetId, Post, Put, Patch, Delete.
+CRUD com os verbos HTTP, métodos GetAll, GetId, Post, Put, Patch, Delete.
 
 <br>
 
