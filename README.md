@@ -66,7 +66,18 @@ api_test
 
 - CRUD com os verbos HTTP, métodos GetAll, GetId, Post, Put, Patch, Delete.
 
-![11_Verbos_HTTP_API_REST](https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/1ec3c4ee-6255-428d-8dd3-efc01fb02145)
+<br>
+
+|Endpoint	|Método		|Ação		|
+|---------------|---------------|---------------|
+|/users		|GET		|Retorna a lista de usuários				|
+|/users		|POST		|Insere um novo usuário					|
+|/users{id}	|GET		|Retorna o usuário com id = {id}			|
+|/users{id}	|PUT		|Substitui os dados do usuário com id = {id}		|
+|/users{id}	|PATCH		|Altera itens dos dados do usuário com id = {id}	|
+|/users{id}	|DELETE		|Remove o usuário com id = {id}				|
+
+<br>
 
 
 ![16_Piramide_Testes](https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/c3287a16-3939-41f7-a137-538a99fadc96)
