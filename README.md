@@ -8,11 +8,7 @@
 ![03_cypress_logo_social](https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/5ba913ef-e3d3-4958-be18-188ddce8d228)
 
 ![10_API_REST](https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/93c6876a-4ab6-4838-96a7-960442cf42dd)
-
-![10_API_REST_ASSURED_BDD](https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/67c6ca2c-1904-45e7-ae68-5c744a4d7f90)
-
-
-
+<br>
 
 
 ## Estrutura do Projeto "api_test"
