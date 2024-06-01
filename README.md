@@ -5,7 +5,7 @@
 
 - Testes com **_2 (duas) suítes de testes_**, ou seja, utilizando 2 (duas) APIs que são **"jsonplaceholder" e "reqres.in".**
 
-- Os testes podem serem executados via **brouser ou terminal** com scripts gravados no **arquivo package.json"**, gerando reports com o framework **Mocha**.
+- Os testes podem serem executados via **browser ou terminal** com scripts gravados no **arquivo package.json"**, gerando reports com o framework **Mocha**.
 
 - **Mocha é um framework** de teste JavaScript que gera relatórios detalhados e personalizáveis, fornecendo insights claros sobre os resultados dos testes para facilitar a análise e depuração do código.
   
@@ -211,8 +211,12 @@ npm run test2:chrome
 
 ## Relatórios gerados de cada suítes de testes **"api_jsonplaceholder" e "api_reqres.in"** executadas
 <br>
+**Mocha é um framework** de teste JavaScript que gera relatórios detalhados e personalizáveis, fornecendo insights claros sobre os resultados dos testes para facilitar a análise e depuração do código.
+
+<br>
 
 |Report HTML da API jsonplaceholder	|Report HTML da API reqres.in 		|
 |---------------------------------------|---------------------------------------|
 | <img width="675" alt="09_Report_Execucao_reqres in" src="https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/eb70f31d-bae7-432c-baea-43399af07d02"> | <img width="675" alt="08_Report_Execucao_jsonplaceholder" src="https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/3b6e7c00-5a1b-431b-81ec-c041e1de191a"> |
 <br>
+
