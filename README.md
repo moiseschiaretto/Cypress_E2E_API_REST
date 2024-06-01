@@ -121,7 +121,7 @@ describe('Testes de API', () => {
 ```
 
 
-## Exemplo da execução via browser API REST com o método GET
+## Exemplo da execução via browser das duas APIs
 
 **Neste exemplo abaixo é um exmplo de testes de _duas suítes de testes_, ou seja, duas APIs diferentes que são "jsonplaceholder" e "reqres.in".**
 <br>
@@ -143,7 +143,7 @@ npx cypress open
 <br>
 
 
-## Exemplo da execução via browser API REST com o método GET
+## Exemplo da execução via terminal das duas APIs
 
 **Neste exemplo abaixo é um exmplo de testes de _duas suítes de testes_, ou seja, duas APIs diferentes que são "jsonplaceholder" e "reqres.in".**
 <br>
