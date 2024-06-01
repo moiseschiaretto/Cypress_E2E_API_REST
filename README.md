@@ -80,17 +80,23 @@ CRUD com os verbos HTTP, métodos GetAll, GetId, Post, Put, Patch, Delete.
 ![16_Piramide_Testes](https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/c3287a16-3939-41f7-a137-538a99fadc96)
 
 
+# Documentação em construção...
+
+
 ## Exemplo da API REST com o método [GET Id]
 
-![01_API_CYPRESS_JAVASCRIPT](https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/0093e413-08dd-461f-ab61-2873982224c7)
 
+```
+
+
+```
 
 
 ## Exemplo da execução via browser API REST com o método [GET Id]
 
-![02_API_CYPRESS_JAVASCRIPT_EXECUCAO](https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/da89fafc-570c-42b7-8f10-e51067e8a4dc)
 
 
 
-**Documentação em construção...**
+
+# Documentação em construção...
 
