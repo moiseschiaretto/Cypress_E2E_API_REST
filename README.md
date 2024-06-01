@@ -216,8 +216,8 @@ npm run test2:chrome
 
 <br>
 
-|Report HTML da API jsonplaceholder	|Report HTML da API reqres.in 		|
-|---------------------------------------|---------------------------------------|
+|Report HTML da API reqres.in	|Report HTML da API jsonplaceholder	|
+|-------------------------------|---------------------------------------|
 | <img width="675" alt="09_Report_Execucao_reqres in" src="https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/eb70f31d-bae7-432c-baea-43399af07d02"> | <img width="675" alt="08_Report_Execucao_jsonplaceholder" src="https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/3b6e7c00-5a1b-431b-81ec-c041e1de191a"> |
 <br>
 
