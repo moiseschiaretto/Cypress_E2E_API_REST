@@ -3,7 +3,7 @@
   
 - Descrição das explicações de cada item da 'estrutura do projeto "api_test" desenvolvido'.
 
-- Testes com **_2 (duas) suítes de testes_**, ou seja, utilizando 2 (duas) APIs que são "jsonplaceholder" e "reqres.in".
+- Testes com **_2 (duas) suítes de testes_**, ou seja, utilizando 2 (duas) APIs que são **"jsonplaceholder" e "reqres.in".**
 
 - Os testes podem serem executados via **brouser ou terminal** com scripts gravados no **arquivo package.json"**, gerando reports com o framework **Mocha**.
 
@@ -73,12 +73,10 @@ CRUD com os verbos HTTP, métodos GetAll, GetId, Post, Put, Patch, Delete.
 
 
 ![16_Piramide_Testes](https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/c3287a16-3939-41f7-a137-538a99fadc96)
+<br>
 
 
-# Documentação em construção...
-
-
-## Exemplo da arquitetura de testes de API REST no Cypress
+## Exemplo da arquitetura de testes de API REST no Cypress utilizando Javascript
 
 
 ```
@@ -139,6 +137,9 @@ npx cypress open
 ## Resultado da execução das _duas suítes de testes_ "via browser"
 <br>
 
+|Execução da API jsonplaceholder	|Execução da API reqres.in 	|
+|---------------------------------------|-------------------------------|
+| 
 
 <br>
 
@@ -158,7 +159,11 @@ npm run tests.cy.js
 <br>
 
 ## Resultado da execução das _duas suítes de testes_ "via terminal"
+<br>
 
+|Execução da API jsonplaceholder	|Execução da API reqres.in 	|
+|---------------------------------------|-------------------------------|
+| 
 
 
 <br>
@@ -208,6 +213,9 @@ npm run test2:chrome
 ## Relatórios gerados de cada suítes de testes **"api_jsonplaceholder" e "api_reqres.in"** executadas
 <br>
 
+|Report HTML da API jsonplaceholder	|Report HTML da API reqres.in 		|
+|---------------------------------------|---------------------------------------|
+| 
 
 <br>
 
