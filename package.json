@@ -1,0 +1,19 @@
+{
+  "name": "api_test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "cypress": "^13.10.0",
+    "cypress-mochawesome-reporter": "^3.5.0",
+    "mochawesome": "^7.1.3"
+  },
+  "scripts": {
+    "report:clear": "if exist cypress\\reports rd /s /q cypress\\reports",
+    "test1:chrome": "cypress run --spec cypress/e2e/step_definitions/api_reqres.in/tests.cy.js --browser chrome --headless",
+    "test2:chrome": "cypress run --spec cypress/e2e/step_definitions/api_jsonplaceholder/tests.cy.js --browser chrome --headless"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
