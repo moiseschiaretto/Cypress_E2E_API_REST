@@ -1,43 +1,43 @@
 const baseUrl = 'https://jsonplaceholder.typicode.com';
 const endpoint = '/posts';
 const urlCompleta = baseUrl + endpoint;
-const tituloId = 1;
+const userId = "/1";
 
-describe('Testes API jsonplaceholder', () => {
-   
     it('GET ID', () => {
-        cy.request({
-        method: 'GET',
-        url: urlCompleta,
-        }).then(res => {
-        console.log(res.body)
-        expect(res.status).to.be.equal(200)
-        cy.log(Array.isArray(res.body));
-        expect(res.body[0]).to.have.property('id')
-        expect(res.body[0]).to.have.property('userId')
-        expect(res.body[0]).to.have.property('title')
-        expect(res.body[0]).to.have.property('body')
-        // Exibir a resposta na tela
-        cy.log(JSON.stringify(res.body, null, 1));
-        console.log(res.body)
-        })
-    })
-        
+      cy.request({
+          method: 'GET',
+          url: `${urlCompleta}/${userId}`,
+      }).then(res => {
+          // Verificar se a resposta possui status 200
+          expect(res.status).to.equal(200);
+          // Verificar se a resposta é um objeto
+          expect(res.body).to.be.an('object');
+          // Verificar se o objeto possui as propriedades corretas
+          expect(res.body).to.have.property('id');
+          expect(res.body).to.have.property('userId');
+          expect(res.body).to.have.property('title');
+          expect(res.body).to.have.property('body');
+          // Exibir a resposta na tela
+          cy.log(JSON.stringify(res.body, null, 1));
+          console.log(res.body);
+      });
+    });
+    
 
     it('GET ALL - Posts', () => {
-    cy.request({
-        method: 'GET',
-        url: urlCompleta,
-    }).then(res => {
-        console.log(res.body)
-        cy.log(Array.isArray(res.body));
-        const recordCount = res.body.length;
-        expect(res.status).to.be.equal(200);
-        for (let i = 0; i < recordCount; i++){
-            expect(res.body[i]).to.have.all.keys('userId', 'id', 'title', 'body');
-        }
-    })
-    })
+      cy.request({
+          method: 'GET',
+          url: urlCompleta,
+      }).then(res => {
+          console.log(res.body)
+          cy.log(Array.isArray(res.body));
+          const recordCount = res.body.length;
+          expect(res.status).to.be.equal(200);
+          for (let i = 0; i < recordCount; i++){
+              expect(res.body[i]).to.have.all.keys('userId', 'id', 'title', 'body');
+          }
+      });
+    });
         
     it('GET ALL - forEach', () => {
         cy.request({
@@ -51,8 +51,8 @@ describe('Testes API jsonplaceholder', () => {
             res.body.forEach(post => {
               expect(post).to.have.all.keys('userId', 'id', 'title', 'body');
             });  
-        })
-      })
+        });
+      });
       
       it('GET ID - Valicação Básica', () => {
         cy.request({
@@ -79,7 +79,7 @@ describe('Testes API jsonplaceholder', () => {
           } else {
             cy.log('Formato de resposta inválido.');
           }
-        })
+        });
       });
       
       it('POST - Inserir Título', () => {
@@ -108,7 +108,7 @@ describe('Testes API jsonplaceholder', () => {
         };
         cy.request({
             method: 'PUT',
-            url: `${urlCompleta}/${tituloId}`,
+            url: `${urlCompleta}/${userId}`,
             body: updatedPost
         }).then((response) => {
             expect(response.status).to.eq(200);
@@ -119,17 +119,15 @@ describe('Testes API jsonplaceholder', () => {
     it('DELETE - Excluir um Título', () => {
         cy.request({
             method: 'DELETE',
-            url: `${urlCompleta}/${tituloId}`,
+            url: `${urlCompleta}/${userId}`,
         }).then((response) => {
             expect(response.status).to.eq(200);
             // Verifique se o recurso foi excluído com sucesso
             cy.request({
                 method: 'GET',
-                url: `${urlCompleta}/${tituloId}`,
+                url: `${urlCompleta}/${userId}`,
             }).then((getResponse) => {
                 expect(getResponse.status).to.eq(200);
-            });
         });
     });
-    
 });
