@@ -155,6 +155,13 @@ Comando digitado no terminal para a execução via **_terminal_**
 npm run tests.cy.js
 
 ```
+<br>
+
+## Resultado da execução das _duas suítes de testes_ "via terminal"
+
+
+
+<br>
 
 ## Scripts de Execução
 
@@ -197,4 +204,14 @@ npm run test2:chrome
 
 ```
 <br>
+
+## Relatórios gerados de cada suítes de testes **"api_jsonplaceholder" e "api_reqres.in"** executadas
+<br>
+
+
+<br>
+
+
+
+
 
