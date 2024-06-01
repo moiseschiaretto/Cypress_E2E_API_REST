@@ -98,5 +98,3 @@ CRUD com os verbos HTTP, métodos GetAll, GetId, Post, Put, Patch, Delete.
 
 
 
-# Documentação em construção...
-
