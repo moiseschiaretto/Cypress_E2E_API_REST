@@ -84,6 +84,7 @@ CRUD com os verbos HTTP, métodos GetAll, GetId, Post, Put, Patch, Delete.
 ```
 
 describe('Testes de API', () => {
+
     const baseUrl = 'https://jsonplaceholder.typicode.com';
     const endpoint = '/posts';
     const urlCompleta = baseUrl + endpoint;
@@ -93,16 +94,16 @@ describe('Testes de API', () => {
         cy.request({
             method: 'GET',
             url: `${urlCompleta}/${userId}`,
-            timeout: 10000, // Definir um timeout adequado
+            timeout: 2000,
         }).then(res => {
             // Validar o status da resposta
             expect(res.status).to.equal(200);
 
-            // Validar o tipo de conteúdo retornado
-            expect(res.headers['content-type']).to.include('application/json');
-
             // Validar o tempo de resposta (opcional)
             expect(res.duration).to.be.lessThan(2000);
+
+            // Validar o tipo de conteúdo retornado
+            expect(res.headers['content-type']).to.include('application/json');
 
             // Validar propriedades do corpo da resposta
             expect(res.body).to.be.an('object');
@@ -122,9 +123,78 @@ describe('Testes de API', () => {
 ```
 
 
-## Exemplo da execução via browser API REST com o método [GET Id]
+## Exemplo da execução via browser API REST com o método GET
+
+**Neste exemplo abaixo é um exmplo de testes de _duas suítes de testes_, ou seja, duas APIs diferentes que são "jsonplaceholder" e "reqres.in".**
+<br>
+
+Comando digitado no terminal para a execução **_via browser_**
+
+```
+
+npx cypress open
+
+```
+
+## Resultado da execução das _duas suítes de testes_ "via browser"
+<br>
 
 
+<br>
 
 
+## Exemplo da execução via browser API REST com o método GET
+
+**Neste exemplo abaixo é um exmplo de testes de _duas suítes de testes_, ou seja, duas APIs diferentes que são "jsonplaceholder" e "reqres.in".**
+<br>
+
+Comando digitado no terminal para a execução via **_terminal_**
+
+```
+
+npm run tests.cy.js
+
+```
+
+## Scripts de Execução
+
+- Criar Scripts de Execução no Arquivo "package.json", para facilitar a execução do projeto.
+
+- Caso desejar criar "scripts" de execuções do projeto, adicionar no arquivo "package.json".
+
+	
+```
+
+"scripts": {
+    "report:clear": "if exist cypress\\reports rd /s /q cypress\\reports",
+    "test1:chrome": "cypress run --spec cypress/e2e/step_definitions/api_reqres.in/tests.cy.js --browser chrome --headless",
+    "test2:chrome": "cypress run --spec cypress/e2e/step_definitions/api_jsonplaceholder/tests.cy.js --browser chrome --headless"
+  }
+
+```
+<br>
+
+
+## Execução dos Scripts acima no Terminal do VSCode
+
+**1.** Excluir a pasta **_"reports"_** com informações das execuções anteriores.
+
+```
+
+npm run report:clear
+
+```
+<br>
+
+
+**2.** Realizar as novas execuções dos arquivos **_"tests.cy.js"_** das suítes de testes **"api_jsonplaceholder" e "api_reqres.in".**
+
+```
+
+npm run test1:chrome
+
+npm run test2:chrome
+
+```
+<br>
 
