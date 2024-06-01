@@ -3,7 +3,7 @@
   
 - Descrição das explicações de cada item da 'estrutura do projeto "api_test" desenvolvido'.
 
-- Testes com 2 (duas) _suítes de testes_, ou seja, utilizando 2 (duas) APIs que são "jsonplaceholder" e "reqres.in".
+- Testes com **_2 (duas) suítes de testes_**, ou seja, utilizando 2 (duas) APIs que são "jsonplaceholder" e "reqres.in".
 
 - Os testes podem serem executados via **brouser ou terminal** com scripts gravados no **arquivo package.json"**, gerando reports com o framework **Mocha**.
 
@@ -78,7 +78,7 @@ CRUD com os verbos HTTP, métodos GetAll, GetId, Post, Put, Patch, Delete.
 # Documentação em construção...
 
 
-## Exemplo da API REST com o método [GET Id]
+## Exemplo da arquitetura de testes de API REST no Cypress
 
 
 ```
