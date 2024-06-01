@@ -32,14 +32,14 @@ api_test
   |            |---step_definitions
   |                  |
   |                  |---api_jsonplaceholder
-  |                  |       |---tests_api.cy.js
+  |                  |       |---tests.cy.js
   |                  |  
   |                  |
   |                  |---api_reqres.in
-  |                          |---tests_api.cy.js
+  |                          |---tests.cy.js
   |                        
   |
-  |---report
+  |---reports
   |       |---mocha
   |        	      |---report_file_name.html
   |
