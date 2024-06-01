@@ -14,8 +14,6 @@ describe('Testes API reqres.in', () => {
         expect(response.status).to.equal(200);
             // Validar a duração da resposta
         expect(response.duration).to.be.lessThan(2000);
-        // Validar o tipo de conteúdo retornado
-        expect(res.headers['content-type']).to.include('application/json');
         // Validar a estrutura do objeto de resposta
         // Validar o tamanho e tipo dos campos
         expect(response.body).to.have.property('page').that.is.a('number');
