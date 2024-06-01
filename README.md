@@ -2,6 +2,12 @@
 - Autor Moisés Ademir Chiaretto
   
 - Descrição das explicações de cada item da 'estrutura do projeto "api_test" desenvolvido'.
+
+- Testes com 2 (duas) _suítes de testes_, ou seja, utilizando 2 (duas) APIs que são "jsonplaceholder" e "reqres.in".
+
+- Os testes podem serem executados via **brouser ou terminal** com scripts gravados no **arquivo package.json"**, gerando reports com o framework **Mocha**.
+
+- **Mocha é um framework** de teste JavaScript que gera relatórios detalhados e personalizáveis, fornecendo insights claros sobre os resultados dos testes para facilitar a análise e depuração do código.
   
 - **Cypress versão 13**
 
