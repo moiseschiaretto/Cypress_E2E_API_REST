@@ -211,6 +211,7 @@ npm run test2:chrome
 
 ## Relatórios gerados de cada suítes de testes **"api_jsonplaceholder" e "api_reqres.in"** executadas
 <br>
+
 **Mocha é um framework** de teste JavaScript que gera relatórios detalhados e personalizáveis, fornecendo insights claros sobre os resultados dos testes para facilitar a análise e depuração do código.
 
 <br>
