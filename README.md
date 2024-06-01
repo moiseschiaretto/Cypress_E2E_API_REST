@@ -139,8 +139,7 @@ npx cypress open
 
 |Execução da API jsonplaceholder	|Execução da API reqres.in 	|
 |---------------------------------------|-------------------------------|
-| 
-
+| <img width="465" alt="06_Browser_Execucao_API_Jsonplaceholder" src="https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/7e60825b-816e-4496-b577-4da9e751beb4"> | <img width="464" alt="07_Browser_Execucao_API_Reqres in" src="https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/3bffa4ce-e8c9-4af3-b76c-c216617b7ee9"> |
 <br>
 
 
@@ -163,10 +162,9 @@ npm run tests.cy.js
 
 |Execução da API jsonplaceholder	|Execução da API reqres.in 	|
 |---------------------------------------|-------------------------------|
-| 
-
-
+| <img width="396" alt="02_Terminal_Execucao_API_Reqres in" src="https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/4ca2d9aa-16fc-4759-98e8-fc9c940ed83e"> | <img width="398" alt="04_Terminal_Execucao_API_Jsonplaceholder" src="https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/6ea7859e-d2ec-4bb5-ae57-ccbc05c97d40"> | <img width="398" alt="03_Terminal_Execucao_API_Reqres in" src="https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/10830941-0e6a-40c6-95f8-f807e801d429"> | <img width="462" alt="05_Terminal_Execucao_API_Jsonplaceholder" src="https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/ef013fdf-26b9-4a81-9caf-943b758fd17e"> |
 <br>
+
 
 ## Scripts de Execução
 
@@ -215,11 +213,5 @@ npm run test2:chrome
 
 |Report HTML da API jsonplaceholder	|Report HTML da API reqres.in 		|
 |---------------------------------------|---------------------------------------|
-| 
-
+| <img width="675" alt="08_Report_Execucao_jsonplaceholder" src="https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/3b6e7c00-5a1b-431b-81ec-c041e1de191a"> | <img width="675" alt="09_Report_Execucao_reqres in" src="https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/eb70f31d-bae7-432c-baea-43399af07d02"> |
 <br>
-
-
-
-
-
