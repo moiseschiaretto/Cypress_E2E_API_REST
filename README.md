@@ -10,12 +10,13 @@
 - **Mocha é um framework** de teste JavaScript que gera relatórios detalhados e personalizáveis, fornecendo insights claros sobre os resultados dos testes para facilitar a análise e depuração do código.
   
 - **Cypress versão 13**
-
-![03_cypress_logo_social](https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/5ba913ef-e3d3-4958-be18-188ddce8d228)
-
-![10_API_REST](https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/93c6876a-4ab6-4838-96a7-960442cf42dd)
 <br>
 
+|Node.js	|IDE VSCode    	|Cypress	|API 	    	|JSON     	|
+|---------------|---------------|---------------|---------------|---------------|
+| <img width="93" alt="02_Node_JS" src="https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/1102f809-71e4-4fd2-8ff4-c9d1fee55034"> | ![VS_CODE](https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/5a192e0c-e2e8-410c-b4d9-9e861ebfe387) | ![03_cypress_logo_social](https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/b0d41a63-a321-477d-b76f-39934329473d) | ![10_API_REST](https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/3e733e59-a831-453f-bae6-8111985779db) | ![03_cypress_logo_social](https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/4084e345-2149-42b8-9518-33abf43d04b7) |
+
+<br>
 
 ## Estrutura do Projeto "api_test"
 
