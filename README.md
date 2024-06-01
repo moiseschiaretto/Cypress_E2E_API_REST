@@ -83,6 +83,41 @@ CRUD com os verbos HTTP, métodos GetAll, GetId, Post, Put, Patch, Delete.
 
 ```
 
+describe('Testes de API', () => {
+    const baseUrl = 'https://jsonplaceholder.typicode.com';
+    const endpoint = '/posts';
+    const urlCompleta = baseUrl + endpoint;
+    const userId = "/1";
+
+    it('GET ID - Validar resposta e tempo de resposta', () => {
+        cy.request({
+            method: 'GET',
+            url: `${urlCompleta}/${userId}`,
+            timeout: 10000, // Definir um timeout adequado
+        }).then(res => {
+            // Validar o status da resposta
+            expect(res.status).to.equal(200);
+
+            // Validar o tipo de conteúdo retornado
+            expect(res.headers['content-type']).to.include('application/json');
+
+            // Validar o tempo de resposta (opcional)
+            expect(res.duration).to.be.lessThan(2000);
+
+            // Validar propriedades do corpo da resposta
+            expect(res.body).to.be.an('object');
+            expect(res.body).to.have.property('id');
+            expect(res.body).to.have.property('userId');
+            expect(res.body).to.have.property('title');
+            expect(res.body).to.have.property('body');
+
+            // Exibir a resposta na tela (opcional)
+            cy.log(JSON.stringify(res.body, null, 1));
+            console.log(response.body);
+        });
+    });
+});
+
 
 ```
 
