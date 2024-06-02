@@ -49,7 +49,7 @@ api_test
   |
   |---reports
   |       |---mocha
-  |        	      |---report_file_name.html
+  |        	|---report_file_name.html
   |
 
 
