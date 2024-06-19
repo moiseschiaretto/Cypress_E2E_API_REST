@@ -12,9 +12,10 @@
 - **Cypress versão 13**
 <br>
 
-|Node.js	|IDE VSCode    	|Cypress	|API 	    	|JSON     	|
-|---------------|---------------|---------------|---------------|---------------|
-| <img width="93" alt="02_Node_JS" src="https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/1102f809-71e4-4fd2-8ff4-c9d1fee55034"> | ![VS_CODE](https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/5a192e0c-e2e8-410c-b4d9-9e861ebfe387) | ![03_cypress_logo_social](https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/b0d41a63-a321-477d-b76f-39934329473d) | ![10_API_REST](https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/3e733e59-a831-453f-bae6-8111985779db) | <img width="164" alt="04_JSON" src="https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/13ea3738-05d8-4a25-b2f6-67993fe6a284"> |
+|JavaScript	|Node.js    	|Cypress	|API 	    	|JSON     	|IDE VSCode	|
+|---------------|---------------|---------------|---------------|---------------|---------------|
+| 
+| <img width="93" alt="02_Node_JS" src="https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/1102f809-71e4-4fd2-8ff4-c9d1fee55034"> | ![03_cypress_logo_social](https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/b0d41a63-a321-477d-b76f-39934329473d) | ![10_API_REST](https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/3e733e59-a831-453f-bae6-8111985779db) | <img width="164" alt="04_JSON" src="https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/13ea3738-05d8-4a25-b2f6-67993fe6a284"> | ![VS_CODE](https://github.com/moiseschiaretto/Cypress_E2E_API_REST/assets/84775466/5a192e0c-e2e8-410c-b4d9-9e861ebfe387) |
 
 
 <br>
